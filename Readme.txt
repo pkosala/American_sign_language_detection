@@ -1,5 +1,13 @@
+## American Sign Language Detection
+
+A MATLAB Application to detect american sign language using sensor data
+
+### Motivation
+Sensing and identifying gestures are crucial for assisting hearing impaired. Cameras can be used but it has not been applied in most mobile cases due to challenging problems such as changing light and background. Accelerometers and surface electromyography sensors are two potential technologies for gesture sensing.
+Hence we deveoped a MATLAB application which can detect and classify and fixed set of pre-trained hand gestures.
+
 The main code is present in the folder main
-Steps:
+### Steps:
 1. Create 2 folders in the directory - 'ass2_output', 'ass3_input' and run 'assignment3.m' script to generate csv for each gesture for all the groups as per task1 of assignment 2 and transformed feature matrix for each gesture for all the users as per task2 of assignment 2.
 2. Create a folder 'pca_output' in the directory and run 'create_pca_matrix.m' which applies pca to the transformed data in step 1 and put them in 'pca_output' folder.
 3. Create a folder 'classification_input' in the directory and run 'create_classification_input' to create the final input feature matrix that has to be fed to the classifier with class imbalance problem.
